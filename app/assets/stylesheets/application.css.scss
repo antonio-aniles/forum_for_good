@@ -14,8 +14,14 @@
  *= require_self
  */
 
- .container {
+.container {
   width: 60%;
   max-width: 1140px;
   margin: 0 auto;
- }
+}
+
+.main_header {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+}

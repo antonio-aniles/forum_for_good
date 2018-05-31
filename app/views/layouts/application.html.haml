@@ -7,11 +7,13 @@
   = csrf_meta_tags
   = csp_meta_tag
 %body
-  %nav
+  %header.main_header
     #logo
       %p Forum_For_Good
+    #buttons
+      = link_to "New Post", new_post_path
   .container
     %p.notice= notice
     %p.alert= alert
   .container
-  = yield
+    = yield
